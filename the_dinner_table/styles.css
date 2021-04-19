@@ -1,0 +1,250 @@
+* /* Common practice */
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body
+{
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+}
+
+.menu-container
+{
+  color: #b2b2b2; /* Light Gray */
+  background-color: #FFFFFF;  /* White */
+  padding: 50px 0;
+
+  display: flex; /* Turns the regular container into a FLEX container */
+  justify-content: center; /* Defines horizontal alignment of items */
+}
+
+.menu
+{
+  /* border: 1px solid #fff;  /* For debugging */
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.home
+{
+  margin: auto;
+}
+
+.story
+{
+  margin: auto;
+}
+
+.the-goal
+{
+  margin: auto;
+}
+
+.contact
+{
+  margin: auto;
+}
+/* This shrinks the menu bar links upon hover
+.shrink { transition: all .3s ease-in-out; }
+.shrink:hover { transform: scale(.8); } */
+
+a:visited, a:link, a:active{text-decoration: none; color: inherit;}
+a:hover{color: #424949;/* Dark Gray */}
+
+.header-container
+{
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  padding-top: 75px;
+}
+
+.header
+{
+  background-image: url(images/dinner-party.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 700px;
+  height: 400px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-box
+{
+  box-sizing: border-box;
+  width: 350px;
+  height: 150px;
+  padding: 45px;
+  margin: auto;
+  border: medium solid #FFFFFF;
+  text-align: center;
+  word-spacing: 5px;
+  font-size: 10px;
+}
+
+.story-container
+{
+  color: #FFFFFF;
+  display: block;
+  justify-content: center;
+  padding-top: 30px;
+}
+
+.problem
+{
+  color: #424949;
+  text-align: center;
+  word-spacing: 5px;
+  font-size: 10px;
+  padding-bottom: 10px;
+}
+.problem-box
+{
+  box-sizing: border-box;
+  width: 50%;
+  padding: 45px;
+  margin: auto;
+  border: medium solid #b2b2b2;
+  color: #424949;
+  text-align: center;
+}
+
+.why
+{
+  color: #424949;
+  text-align: center;
+  word-spacing: 5px;
+  font-size: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.why-box
+{
+  box-sizing: border-box;
+  width: 50%;
+  padding: 45px;
+  margin: auto;
+  border: medium solid #b2b2b2;
+  color: #424949;
+  text-align: center;
+}
+
+.solution
+{
+  color: #424949;
+  text-align: center;
+  word-spacing: 5px;
+  font-size: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.solution-box
+{
+  box-sizing: border-box;
+  width: 50%;
+  padding: 45px;
+  margin: auto;
+  border: medium solid #b2b2b2;
+  color: #424949;
+  text-align: center;
+}
+
+/*
+.example
+{
+  color: #424949;
+  text-align: center;
+  word-spacing: 5px;
+  font-size: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.example-box
+{
+  box-sizing: border-box;
+  width: 50%;
+  padding: 45px;
+  margin: auto;
+  border: medium solid #b2b2b2;
+  color: #424949;
+  text-align: center;
+}
+*/
+
+.goal
+{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.goal-text
+{
+  display: block;
+  align-items: center;
+  color: #424949;
+  text-align: center;
+  word-spacing: 5px;
+  font-size: 10px;
+  padding-bottom: 10px;
+}
+.goal-img
+{
+  display: block;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.goal-summary
+{
+  display: block;
+  align-items: center;
+  width: 370px;
+  margin: auto;
+  margin-top: 50px;
+  border-collapse: collapse;
+  color: #424949;
+  text-align: center;
+}
+
+table
+{
+  margin-top: 50px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-collapse: collapse;
+  margin:auto;
+}
+
+th, td
+{
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+  color: #b2b2b2;
+}
+
+tr:hover {background-color:#f5f5f5;}
+
+.footer-container
+{
+  display: flex; /* Turns the regular container into a FLEX container */
+  justify-content: center; /* Defines horizontal alignment of items */
+}
+.footer
+{
+  color: #b2b2b2;
+  display: flex;
+  justify-content: space-between;
+  width:25%;
+  height:30px;   /* Height of the footer */
+  margin-top: 50px;
+  font-size: 10px;
+  text-align: center;
+}
